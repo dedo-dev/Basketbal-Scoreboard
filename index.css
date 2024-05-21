@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: #5B21B6;
+  min-height: 100dvh;
+  place-content: center;
+  text-align: center;
+}
+
+h1, h3, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-block-end: 3rem;
+  color: #FCD34D;
+}
+
+main {
+  margin: 16px;
+}
+
+.container {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 24px;
+  margin-inline: auto;
+  padding: 2em;
+  background: #FCD34D;
+  border-radius: 18px;
+}
+
+.scoreboard {
+  background: #111827;
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.scoreboard h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FCD34D;
+  margin-block-end: 1rem;
+}
+
+.score {
+  background: #F3F4F6;
+  padding-block: 1em;
+  border-radius: 4px;
+  color: #111827;
+  max-width: 50%;
+  margin-inline: auto;
+  padding: .5em;
+}
+
+.score p {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  cursor: pointer;
+  margin-block-start: 2rem;
+  border: 0;
+  border-radius: 4px;
+  background: #FCD34D;
+  color: #111827;
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.accent {
+  background:  #FCD34D;
+}
